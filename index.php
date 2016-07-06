@@ -26,7 +26,7 @@
     <table class="table table-striped table-bordered table-hover"><thead><tr><th>Song Number</th><th>Song Name</th><th>Category</th></tr></thead>
   <?php
 
-$servername = "mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/";
+$servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
 $username = "adminN8Qadmx";
 $password = "PmBAaAcMNHYi";
 $dbname = "hfc";

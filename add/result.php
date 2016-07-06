@@ -24,7 +24,7 @@
   <div class="row">
   <?php
 
-$servername = "mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/";
+$servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
 $username = "adminN8Qadmx";
 $password = "PmBAaAcMNHYi";
 $dbname = "hfc";
