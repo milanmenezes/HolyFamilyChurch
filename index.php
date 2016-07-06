@@ -26,10 +26,10 @@
     <table class="table table-striped table-bordered table-hover"><thead><tr><th>Song Number</th><th>Song Name</th><th>Category</th></tr></thead>
   <?php
 
-$servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
-$username = "adminN8Qadmx";
-$password = "PmBAaAcMNHYi";
-$dbname = "hfc";
+$servername = "sql6.freesqldatabase.com";
+$username = "sql6126749";
+$password = "QRQv9JZwSJ";
+$dbname = "sql6126749";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

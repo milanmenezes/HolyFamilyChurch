@@ -25,10 +25,10 @@
   <div>
   <?php
 
-$servername = getenv('OPENSHIFT_MYSQL_DB_HOST');
-$username = "adminN8Qadmx";
-$password = "PmBAaAcMNHYi";
-$dbname = "hfc";
+$servername = "sql6.freesqldatabase.com";
+$username = "sql6126749";
+$password = "QRQv9JZwSJ";
+$dbname = "sql6126749";
 $indexno = $_GET['indexno'];
 
 // Create connection
