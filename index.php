@@ -26,10 +26,10 @@
     <table class="table table-striped table-bordered table-hover"><thead><tr><th>Song Number</th><th>Song Name</th><th>Category</th></tr></thead>
   <?php
 
-$servername = "mysql.hostinger.in";
-$username = "u120839926_milan";
-$password = "nightfury";
-$dbname = "u120839926_churc";
+$servername = "mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/";
+$username = "adminN8Qadmx";
+$password = "PmBAaAcMNHYi";
+$dbname = "hfc";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

@@ -25,10 +25,10 @@
   <div>
   <?php
 
-$servername = "mysql.hostinger.in";
-$username = "u120839926_milan";
-$password = "nightfury";
-$dbname = "u120839926_churc";
+$servername = "mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/";
+$username = "adminN8Qadmx";
+$password = "PmBAaAcMNHYi";
+$dbname = "hfc";
 $indexno = $_GET['indexno'];
 
 // Create connection

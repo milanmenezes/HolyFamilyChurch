@@ -24,10 +24,10 @@
   <div class="row">
   <?php
 
-$servername = "mysql.hostinger.in";
-$username = "u120839926_milan";
-$password = "nightfury";
-$dbname = "u120839926_churc";
+$servername = "mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/";
+$username = "adminN8Qadmx";
+$password = "PmBAaAcMNHYi";
+$dbname = "hfc";
 $snum = $_POST['snum'];
 $sname = $_POST["sname"];
 $cat = $_POST["cat"];
