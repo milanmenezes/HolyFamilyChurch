@@ -24,10 +24,10 @@
   <div class="row">
   <?php
 
-$servername = "sql6.freesqldatabase.com";
-$username = "sql6126749";
-$password = "QRQv9JZwSJ";
-$dbname = "sql6126749";
+$servername = "HOSTNAME";
+$username = "USER_NAME";
+$password = "PASSWORD";
+$dbname = "DB_NAME";
 $snum = $_POST['snum'];
 $sname = $_POST["sname"];
 $cat = $_POST["cat"];

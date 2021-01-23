@@ -25,10 +25,10 @@
   <div>
   <?php
 
-$servername = "sql6.freesqldatabase.com";
-$username = "sql6126749";
-$password = "QRQv9JZwSJ";
-$dbname = "sql6126749";
+$servername = "HOSTNAME";
+$username = "USER_NAME";
+$password = "PASSWORD";
+$dbname = "DB_NAME";
 $indexno = $_GET['indexno'];
 
 // Create connection
